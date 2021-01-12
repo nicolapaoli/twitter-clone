@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background-color: #0f0f11;
+}
+
+.nav {
+  width: 20%;
+  max-width: 100px;
+  min-width: 70px;
+}
+
+.main {
+  flex: 1;
+  background-color: coral;
+}
+
+.sidebar {
+  flex: 0.5;
+  background-color: cyan;
+}

@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  font-size: 120%;
+}
+
+.logo {
+  margin-top: 26px;
+  font-size: 200%;
+  margin-bottom: 16px;
+}
+
+.nav > * {
+  cursor: pointer;
+}
+
+.nav-icon {
+  margin: 8px 0;
+  padding: 16px 0;
+}
+
+.nav-icon.active {
+  color: #00adff;
+  border-right: 2px solid #00adff;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #00adff;
+  background-image: url("../assets/profile.png");
+  background-size: cover;
+}

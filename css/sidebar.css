@@ -1,0 +1,11 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.trending-panel {
+  background-color: tomato;
+  margin: 20px;
+  height: 500px;
+  width: 200px;
+}
