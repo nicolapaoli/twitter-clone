@@ -5,19 +5,35 @@
 .tweets-search-container {
   height: 70px;
   margin: 20px;
-  background-color: red;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #979797;
+  color: white;
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+.tweets-search-container input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  height: auto;
+  color: white;
+}
+
+.tweets-search-container input:focus {
+  border: none;
+  box-shadow: 0;
+  outline: none;
+}
+
+.tweets-search-container i {
+  padding-left: 10px;
 }
 
 .tweets-list {
   height: 500px;
   margin: 20px;
-  background-color: blueviolet;
-}
-
-.tweet-container {
-  display: flex;
-  flex-direction: column;
-  height: 100px;
-  background-color: white;
-  margin: 10px;
 }
